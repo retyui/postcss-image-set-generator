@@ -1,0 +1,16 @@
+.editorconfig
+.eslintrc.json
+.eslintrc
+.git
+.gitignore
+.npmignore
+.travis.yml
+.babelrc
+README.md
+CHANGELOG.md
+yarn.lock
+
+lib/
+node_modules/
+test/
+.idea/

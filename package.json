@@ -1,0 +1,58 @@
+{
+  "name": "postcss-image-set-generator",
+  "version": "0.1.0",
+  "description": "Postcss plugin for generate miniatures image-set()",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "npm run compile && npm run eslint && mocha",
+    "eslint": "node_modules/.bin/eslint lib test",
+    "compile": "node_modules/.bin/babel lib --out-dir dist"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retyui/postcss-image-set-generator.git"
+  },
+  "keywords": [
+    "retina",
+    "scale",
+    "@3x",
+    "@2x",
+    "css",
+    "image-set",
+    "postcss-plugin",
+    "image",
+    "webp",
+    "png",
+    "jpg",
+    "jpeg",
+    "gif"
+  ],
+  "author": {
+    "name": "David Narbutovich",
+    "email": "vamnemne@gmail.com",
+    "url": "https://github.com/retyui"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/retyui/postcss-image-set-generator/issues"
+  },
+  "homepage": "https://github.com/retyui/postcss-image-set-generator#readme",
+  "dependencies": {
+    "assets": "^2.1.0",
+    "postcss": "^6.0.2",
+    "postcss-functions": "^2.1.1",
+    "sharp": "^0.18.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-env": "1.5.2",
+    "chai": "3.5.0",
+    "eslint": "3.19.0",
+    "mocha": "3.4.2"
+  }
+}
