@@ -1,5 +1,8 @@
-# postcss-image-set-generator [![Build Status](https://travis-ci.org/retyui/postcss-image-set-generator.svg?branch=master)](https://travis-ci.org/retyui/postcss-image-set-generator) [![npm version](https://badge.fury.io/js/postcss-image-set-generator.svg)](https://badge.fury.io/js/postcss-image-set-generator) [![devDependency Status](https://img.shields.io/david/dev/retyui/postcss-image-set-generator.svg)](https://david-dm.org/retyui/postcss-image-set-generator)
-
+# postcss-image-set-generator
+[![npm](https://img.shields.io/npm/v/postcss-image-set-generator.svg)](https://www.npmjs.com/package/postcss-image-set-generator)
+[![AppVeyor](https://img.shields.io/appveyor/ci/retyui/postcss-image-set-generator.svg?label=win)](https://ci.appveyor.com/project/retyui/postcss-image-set-generator)
+[![Travis](https://img.shields.io/travis/retyui/postcss-image-set-generator.svg?label=unix)](https://travis-ci.org/retyui/postcss-image-set-generator)
+[![David](https://img.shields.io/david/retyui/postcss-image-set-generator.svg)](https://david-dm.org/retyui/postcss-image-set-generator)
 
 <img src="https://pp.userapi.com/c639816/v639816614/29dff/vPg0nxoXBBM.jpg" width="444" alt="Logo postcss-image-set-generator">
 
@@ -39,7 +42,7 @@ You must specify only one picture of the largest size and specify for which pixe
 - C++11 compatible compiler such as gcc 4.8+, clang 3.0+ or MSVC 2013+
 - [`node-gyp`](https://github.com/nodejs/node-gyp#installation) and its dependencies (includes Python)
 ```bash
-npm install postcss-image-set-generator --save-dev 
+npm install postcss-image-set-generator --save-dev
 yarn add postcss-image-set-generator --dev
 ```
 

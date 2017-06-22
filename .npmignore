@@ -1,15 +1,12 @@
 .editorconfig
 .eslintrc.json
-.eslintrc
 .git
 .gitignore
 .npmignore
 .travis.yml
 .babelrc
-README.md
-CHANGELOG.md
 yarn.lock
-
+appveyor.yml
 lib/
 node_modules/
 test/
