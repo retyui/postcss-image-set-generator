@@ -42,9 +42,9 @@
   "homepage": "https://github.com/retyui/postcss-image-set-generator#readme",
   "dependencies": {
     "assets": "^2.1.0",
-    "postcss": "^6.0.2",
+    "postcss": "^6.0.8",
     "postcss-functions": "^2.1.1",
-    "sharp": "^0.18.1"
+    "sharp": "^0.18.2"
   },
   "devDependencies": {
     "babel-cli": "6.24.1",
