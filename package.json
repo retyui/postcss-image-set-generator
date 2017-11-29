@@ -41,9 +41,9 @@
   },
   "homepage": "https://github.com/retyui/postcss-image-set-generator#readme",
   "dependencies": {
-    "assets": "^2.1.0",
-    "postcss": "^6.0.8",
-    "postcss-functions": "^2.1.1",
+    "assets": "^3",
+    "postcss": "^6",
+    "postcss-functions": "^3",
     "sharp": "^0.18.2"
   },
   "devDependencies": {
