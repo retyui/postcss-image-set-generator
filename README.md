@@ -1,4 +1,6 @@
 # postcss-image-set-generator
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/retyui/postcss-image-set-generator.svg)](https://greenkeeper.io/)
 [![npm](https://img.shields.io/npm/v/postcss-image-set-generator.svg)](https://www.npmjs.com/package/postcss-image-set-generator)
 [![AppVeyor](https://img.shields.io/appveyor/ci/retyui/postcss-image-set-generator.svg?label=win)](https://ci.appveyor.com/project/retyui/postcss-image-set-generator)
 [![Travis](https://img.shields.io/travis/retyui/postcss-image-set-generator.svg?label=unix)](https://travis-ci.org/retyui/postcss-image-set-generator)
