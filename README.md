@@ -1,10 +1,9 @@
 # postcss-image-set-generator
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/retyui/postcss-image-set-generator.svg)](https://greenkeeper.io/)
 [![npm](https://img.shields.io/npm/v/postcss-image-set-generator.svg)](https://www.npmjs.com/package/postcss-image-set-generator)
 [![AppVeyor](https://img.shields.io/appveyor/ci/retyui/postcss-image-set-generator.svg?label=win)](https://ci.appveyor.com/project/retyui/postcss-image-set-generator)
 [![Travis](https://img.shields.io/travis/retyui/postcss-image-set-generator.svg?label=unix)](https://travis-ci.org/retyui/postcss-image-set-generator)
-[![David](https://img.shields.io/david/retyui/postcss-image-set-generator.svg)](https://david-dm.org/retyui/postcss-image-set-generator)
+[![Greenkeeper badge](https://badges.greenkeeper.io/retyui/postcss-image-set-generator.svg)](https://greenkeeper.io/)
 
 <img src="https://pp.userapi.com/c639816/v639816614/29dff/vPg0nxoXBBM.jpg" width="444" alt="Logo postcss-image-set-generator">
 
@@ -109,5 +108,3 @@ Available Values `dpi || dppx || x`
 
 ### [`loadPaths`](https://github.com/borodean/assets#loadpaths)
 ### [`relativeTo`](https://github.com/borodean/assets#relativeto)
-
-[![NPM](https://nodei.co/npm-dl/postcss-image-set-generator.png)](https://nodei.co/npm/postcss-image-set-generator/)
