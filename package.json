@@ -53,6 +53,6 @@
     "babel-preset-env": "1.6.1",
     "chai": "4.1.2",
     "eslint": "4.18.2",
-    "mocha": "5.0.2"
+    "mocha": "5.0.4"
   }
 }
