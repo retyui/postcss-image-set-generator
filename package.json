@@ -1,12 +1,18 @@
 {
   "name": "postcss-image-set-generator",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Postcss plugin for generate miniatures image-set()",
-  "main": "dist/main.js",
+  "main": "lib/main.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "npm run compile && npm run eslint && mocha",
-    "eslint": "node_modules/.bin/eslint lib test",
-    "compile": "node_modules/.bin/babel lib --out-dir dist"
+    "pretest": "npm run build",
+    "test": "npm run eslint && mocha",
+    "eslint": "eslint src test",
+    "prebuild": "rimraf ./lib",
+    "build": "babel src --out-dir lib",
+    "prepublishOnly": "npm run build"
   },
   "pre-commit": [
     "test"
@@ -41,18 +47,26 @@
   },
   "homepage": "https://github.com/retyui/postcss-image-set-generator#readme",
   "dependencies": {
-    "assets": "^3",
-    "postcss": "^6",
-    "postcss-functions": "^3",
-    "sharp": "^0.20.0"
+    "assets": "^3.0.0",
+    "postcss-functions": "^3.0.0",
+    "sharp": "^0.20.8"
+  },
+  "peerDependencies": {
+    "postcss": "^6.0.0 || ^7.0.0"
   },
   "devDependencies": {
-    "babel-cli": "6.26.0",
-    "babel-eslint": "8.2.2",
-    "babel-plugin-add-module-exports": "0.2.1",
-    "babel-preset-env": "1.6.1",
-    "chai": "4.1.2",
-    "eslint": "4.18.2",
-    "mocha": "5.0.2"
+    "postcss": "^7.0.2",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "chai": "^4.1.2",
+    "eslint": "^5.6.0",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   }
 }

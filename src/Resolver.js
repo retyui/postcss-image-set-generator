@@ -1,27 +1,17 @@
-"use strict";
+import Assets from "assets";
+import path from "path";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _assets = _interopRequireDefault(require("assets"));
-
-var _path = _interopRequireDefault(require("path"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-class Resolver {
+export default class Resolver {
   constructor(options) {
     this.options = options;
-    this.resolver = new _assets.default(options);
+    this.resolver = new Assets(options);
   }
 
   postcss(css) {
     let inputDir;
-
     if (css.source.input.file) {
-      inputDir = _path.default.dirname(css.source.input.file);
+      inputDir = path.dirname(css.source.input.file);
+
       this.resolver.options.loadPaths = this.resolver.options.loadPaths || [];
       this.resolver.options.loadPaths.unshift(inputDir);
 
@@ -38,8 +28,4 @@ class Resolver {
   getPath(normalizedPath) {
     return this.resolver.path(normalizedPath);
   }
-
 }
-
-exports.default = Resolver;
-module.exports = exports.default;

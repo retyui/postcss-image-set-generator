@@ -2,7 +2,7 @@
 
 var expect = require('chai').expect;
 var postcss = require('postcss');
-var generatorImgs = require('../dist/main');
+var generatorImgs = require('../lib/main');
 
 var path = require('path');
 var options = {
