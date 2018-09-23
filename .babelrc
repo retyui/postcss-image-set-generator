@@ -1,12 +1,13 @@
 {
-	"presets": [
-		["env", {
-			"targets": {
-				"node": ["4.0.0"]
-			}
-		}]
-	],
-	"plugins": [
-		"add-module-exports"
-	]
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "6.14.0"
+        }
+      }
+    ]
+  ],
+  "plugins": ["babel-plugin-add-module-exports"]
 }
