@@ -52,13 +52,14 @@ You must specify only one picture of the largest size and specify for which pixe
 
 ### [Prerequisites](http://sharp.dimens.io/en/stable/install/#prerequisites)
 
-- Node v4+
+- Node v6+
 - C++11 compatible compiler such as gcc 4.8+, clang 3.0+ or MSVC 2013+
 - [`node-gyp`](https://github.com/nodejs/node-gyp#installation) and its dependencies (includes Python)
 
 ```bash
-npm install postcss-image-set-generator --save-dev
-yarn add postcss-image-set-generator --dev
+yarn add postcss-image-set-generator
+# or
+npm install postcss-image-set-generator
 ```
 
 ## Example
